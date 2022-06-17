@@ -1,0 +1,2 @@
+[workspace]
+members = ["rustkube", "current-kube-context", "kcc", "inline-kube"]

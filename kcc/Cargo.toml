@@ -1,0 +1,17 @@
+[package]
+name = "kcc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.55"
+backtrace = "0.3.64"
+chrono = "0.4.19"
+console = "0.15.0"
+debug_tree = "0.4.0"
+dialoguer = "0.10.0"
+rustkube = { path = "../rustkube" }
+similar = "2.1.0"
+tabular = "0.2.0"
